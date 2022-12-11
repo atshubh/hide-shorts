@@ -1,0 +1,27 @@
+{
+  "name": "hide-shorts",
+  "version": "1.0.0",
+  "description": "Browser extension to hide shorts links and videos on YouTube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atshubh/hide-shorts.git"
+  },
+  "keywords": [
+    "chrome",
+    "firefox",
+    "extension"
+  ],
+  "author": "Shubhanshu Aggarwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atshubh/hide-shorts/issues"
+  },
+  "homepage": "https://github.com/atshubh/hide-shorts#readme",
+  "devDependencies": {
+    "prettier": "^2.8.1"
+  }
+}
