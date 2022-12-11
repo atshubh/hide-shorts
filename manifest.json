@@ -1,16 +1,16 @@
 {
-    "manifest_version": 3,
-    "name": "Hide YouTube Shorts",
-    "description": "Hide the Shorts video on YouTube",
-    "version": "1.0",
-    "action": {
-        "default_popup": "src/index.html"
-    },
-    "content_scripts": [
-        {
-            "js": ["src/scripts/hide-shorts.js"],
-            "matches": ["https://*.youtube.com/*"],
-            "all_frames": true
-        }
-    ]
+  "manifest_version": 3,
+  "name": "Hide YouTube Shorts",
+  "description": "Hide the Shorts video on YouTube",
+  "version": "1.0",
+  "action": {
+    "default_popup": "src/index.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["src/scripts/hide-shorts.js"],
+      "matches": ["https://*.youtube.com/*"],
+      "all_frames": true
+    }
+  ]
 }
